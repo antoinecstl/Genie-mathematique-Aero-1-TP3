@@ -35,7 +35,7 @@ def fd5(x):
 def f6(x):
     return m.exp(x)-x**2-3
 def fd6(x):
-    return 2*x-m.exp(x) 
+    return m.exp(x)-2*x 
 
 def f7(x):
     return 3*x+4*m.ln(x)-7
